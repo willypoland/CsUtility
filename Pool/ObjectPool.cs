@@ -6,11 +6,11 @@ namespace Roz.Common.Pool
 {
     public class ObjectPool<T> : IPool<T> where T : class
     {
-        private readonly IPoolObjectFactory<T> _factory;
+        private readonly IObjectPoolFactory<T> _factory;
         private readonly IndexPool _indexPool;
         private T[] _objects;
 
-        public ObjectPool(IPoolObjectFactory<T> factory, int capacity = 8)
+        public ObjectPool(IObjectPoolFactory<T> factory, int capacity = 8)
         {
             _factory = factory;
             _indexPool = new IndexPool(capacity);

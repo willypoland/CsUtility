@@ -1,6 +1,6 @@
 ﻿namespace Roz.Common.Pool
 {
-    public interface IPoolObjectFactory<T> where T : class
+    public interface IObjectPoolFactory<T> where T : class
     {
         T Create();
 

@@ -3,11 +3,11 @@
 
 namespace Roz.Common.Pool
 {
-    public sealed class DelegatePoolObjectFactory<T> : IPoolObjectFactory<T> where T : class
+    public sealed class DelegateObjectPoolFactory<T> : IObjectPoolFactory<T> where T : class
     {
         private Func<T> _createFunc;
 
-        public DelegatePoolObjectFactory(Func<T> createFunc, Action<T> getAction = null, Action<T> releaseAction = null,
+        public DelegateObjectPoolFactory(Func<T> createFunc, Action<T> getAction = null, Action<T> releaseAction = null,
                                      Action<T> disposeAction = null)
         {
             CreateFunc = createFunc;
