@@ -76,7 +76,6 @@ namespace Roz.Common.Pool
             if (_objects == null || _objects.Length < _indexPool.Capacity)
             {
                 ResizeObjectsBuffer(_indexPool.Capacity);
-                Debug.Log("Resized");
             }
 
             return ii;
