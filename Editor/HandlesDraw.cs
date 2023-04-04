@@ -1,10 +1,11 @@
 ﻿using System;
 using Roz.Common.Extensions;
+using Roz.Common.Helpers;
 using UnityEngine;
 using UnityEditor;
 
 
-namespace Roz.Common.Helpers
+namespace Roz.Common.Editor
 {
     public static class HandlesDraw
     {
