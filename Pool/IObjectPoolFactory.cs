@@ -1,4 +1,4 @@
-﻿namespace Roz.Common.Pool
+﻿namespace CsUtility.Pool
 {
     public interface IObjectPoolFactory<T> where T : class
     {

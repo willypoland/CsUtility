@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
-namespace Roz.Common.Extensions
+
+namespace CsUtility.Extensions
 {
     public static class VectorExtension
     {

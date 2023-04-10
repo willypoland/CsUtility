@@ -1,12 +1,8 @@
 {
-    "name": "Roz.Common.Editor",
+    "name": "CsUtility",
     "rootNamespace": "",
-    "references": [
-        "GUID:203368a4ff7cab74cb33d9218f19bafa"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "references": [],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": true,
     "overrideReferences": false,

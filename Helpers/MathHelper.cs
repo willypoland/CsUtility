@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace Roz.Common.Helpers
+namespace CsUtility.Helpers
 {
     public static class MathHelper
     {

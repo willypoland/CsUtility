@@ -6,3 +6,5 @@ bin
 obj
 Temp
 .DS_Store
+
+*.meta

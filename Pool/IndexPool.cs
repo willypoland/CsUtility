@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
 
-namespace Roz.Common.Pool
+namespace CsUtility.Pool
 {
     public class IndexPool : IEnumerable<IndexInstance>
     {

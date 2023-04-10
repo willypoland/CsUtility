@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace Roz.Common.Pool
+namespace CsUtility.Pool
 {
     public sealed class DelegateObjectPoolFactory<T> : IObjectPoolFactory<T> where T : class
     {

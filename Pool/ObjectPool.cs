@@ -1,8 +1,7 @@
 ﻿using System;
-using UnityEngine;
 
 
-namespace Roz.Common.Pool
+namespace CsUtility.Pool
 {
     public class ObjectPool<T> : IPool<T> where T : class
     {

@@ -1,4 +1,4 @@
-﻿namespace Roz.Common.Pool
+﻿namespace CsUtility.Pool
 {
     public struct PooledItem<T>
     {
