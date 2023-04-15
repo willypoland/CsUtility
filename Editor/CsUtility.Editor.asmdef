@@ -2,7 +2,7 @@
     "name": "CsUtility.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:e7f079f309a44db40a524a114c89351a"
+        "GUID:b975639739109644aae22a1f465d111b"
     ],
     "includePlatforms": [
         "Editor"
