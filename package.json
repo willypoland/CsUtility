@@ -1,8 +1,8 @@
 ﻿{
-  "name": "com.roz.common",
-  "version": "0.1.1",
+  "name": "com.cs.utility",
+  "version": "0.1.2",
   "unity": "2021.3",
-  "displayName": "Roz.Common",
+  "displayName": "CsUtility",
   "description": "Some utilities and helpers for unity",
   "keywords": [
     "common",
@@ -12,6 +12,6 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/willypoland/Roz.Common"
+    "url": "https://github.com/willypoland/CsUtility.git"
   }
 }
